@@ -6,4 +6,4 @@ while b <= 4*10**6:
     a,b = b,a+b
     even_nums += b if not b%2 else 0
 
-print 'Even numbers: ' + str(even_nums)
+print('Even numbers: ' + str(even_nums))

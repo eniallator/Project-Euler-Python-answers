@@ -10,9 +10,9 @@ for a in range(limit, 0, -1):
         prod = a * b
         if str(prod) == str(prod)[::-1] and prod > largest:
             largest = prod
-            print a, b, prod
+            print(a, b, prod)
 
         if prod < largest:
             break
 
-print largest
+print(largest)

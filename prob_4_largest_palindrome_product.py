@@ -10,7 +10,7 @@ while b > 1:
 
     if str(prod)[::-1] == str(prod):
         if prod > largest:
-            print a, b, prod
+            print(a, b, prod)
         largest = prod if prod > largest else largest
 
     a -= 1
@@ -21,7 +21,7 @@ while b > 1:
         if a*b < largest:
             break
 
-print largest
+print(largest)
 
 """7 digits output:
 
